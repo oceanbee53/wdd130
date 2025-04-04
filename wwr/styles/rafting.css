@@ -27,7 +27,7 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
     color: tomato;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 header img {
@@ -65,16 +65,7 @@ header img {
     text-align: center;
 }
 
-.section2 img {
-    width: 100%;
-    height: auto;
-}
 
-.gallery figure figcaption img {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 
 .footer {
