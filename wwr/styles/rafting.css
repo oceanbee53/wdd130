@@ -78,21 +78,22 @@ header img {
 
 }
 
-.section2 {
-    background-color: #ace;
-    margin: 15px;
+.adventure-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-
-
-.section2 h2 {
+.adventure-gallery figure {
     text-align: center;
+    margin: 10px;
 }
 
-.section2 p {
-    text-align: center;
+.adventure-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
 }
-
 
 
 
