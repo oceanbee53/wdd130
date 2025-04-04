@@ -36,6 +36,33 @@ header img {
     height: auto;
 }
 
+.hero {
+
+    background-color: #ace;
+    margin: 15px;
+    padding: 10px;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+.hero p {
+    text-align: center;
+    font-size: 1em;
+}
+
+.hero img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    width: 75px;
+    height: auto;
+}
+
 .section1 {
     background-color: #ace;
     margin: 15px;
@@ -54,8 +81,9 @@ header img {
 .section2 {
     background-color: #ace;
     margin: 15px;
-    height: auto;
 }
+
+
 
 .section2 h2 {
     text-align: center;
@@ -64,6 +92,7 @@ header img {
 .section2 p {
     text-align: center;
 }
+
 
 
 
