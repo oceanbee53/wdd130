@@ -32,8 +32,9 @@ header nav a:hover {
 
 header img {
     margin-right: auto;
-    width: 75px;
+    width: 100px;
     height: auto;
+    padding: 10px 10px;
 }
 
 .hero {
@@ -56,11 +57,17 @@ header img {
 
 .hero img {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     margin-left: auto;
-    width: 75px;
+    width: 100px;
     height: auto;
+}
+
+.article {
+    background-color: #ace;
+    margin: 15px;
+    padding: 10px;
+    border: 3px solid #000;
 }
 
 .section1 {
@@ -75,24 +82,36 @@ header img {
 
 .section1 h2 {
     text-align: center;
+    font-size: 2em;
 
 }
 
-.adventure-gallery {
+.section2 {
+    background-color: #ace;
+    margin: 15px;
+    padding: 10px;
+}
+
+.section2-gallery {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.adventure-gallery figure {
+.section2-gallery figure {
     text-align: center;
     margin: 10px;
 }
 
-.adventure-gallery img {
+.section2-gallery img {
     width: 200px;
     height: auto;
     border-radius: 5px;
+}
+
+.section2 h2 {
+    text-align: center;
+    font-size: 2em;
 }
 
 
