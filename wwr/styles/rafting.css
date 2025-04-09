@@ -123,6 +123,15 @@ header img {
 
 }
 
+.footer p {
+    text-align: center;
+    font-size: 1.2em;
+
+
+
+
+}
+
 
 .sociallinks {
     display: flex;
@@ -145,7 +154,7 @@ header img {
 .section-gallery h1 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #333;
+    color: #2c3e50;
 }
 
 /*section-gallery*/
@@ -271,4 +280,39 @@ form {
     font-size: 1rem;
     color: #555;
     line-height: 1.6;
+}
+
+.div-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.div-hero img {
+    width: 100%;
+    position: relative;
+    height: 500px;
+    margin: 15px;
+
+
+
+}
+
+.div-hero h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: #2980b9;
+}
+
+.div-hero p {
+    font-size: 1.2rem;
+    color: #34495e;
+    text-align: center;
+    width: 100%;
+    line-height: 2;
+    margin: 15px;
+    background-color: #ccc;
+
 }
